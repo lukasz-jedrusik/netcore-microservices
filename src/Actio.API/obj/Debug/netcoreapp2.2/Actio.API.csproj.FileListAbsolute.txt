@@ -1,0 +1,16 @@
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.API/bin/Debug/netcoreapp2.2/Actio.API.deps.json
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.API/bin/Debug/netcoreapp2.2/Actio.API.runtimeconfig.json
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.API/bin/Debug/netcoreapp2.2/Actio.API.runtimeconfig.dev.json
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.API/bin/Debug/netcoreapp2.2/Actio.API.dll
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.API/bin/Debug/netcoreapp2.2/Actio.API.pdb
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.API/bin/Debug/netcoreapp2.2/Actio.Common.dll
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.API/bin/Debug/netcoreapp2.2/Actio.Common.pdb
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.API/obj/Debug/netcoreapp2.2/Actio.API.csproj.CoreCompileInputs.cache
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.API/obj/Debug/netcoreapp2.2/Actio.API.RazorAssemblyInfo.cache
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.API/obj/Debug/netcoreapp2.2/Actio.API.RazorAssemblyInfo.cs
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.API/obj/Debug/netcoreapp2.2/Actio.API.AssemblyInfoInputs.cache
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.API/obj/Debug/netcoreapp2.2/Actio.API.AssemblyInfo.cs
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.API/obj/Debug/netcoreapp2.2/Actio.API.RazorTargetAssemblyInfo.cache
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.API/obj/Debug/netcoreapp2.2/Actio.API.csproj.CopyComplete
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.API/obj/Debug/netcoreapp2.2/Actio.API.dll
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.API/obj/Debug/netcoreapp2.2/Actio.API.pdb

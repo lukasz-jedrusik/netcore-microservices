@@ -1,0 +1,16 @@
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.Services.Activities/bin/Debug/netcoreapp2.2/Actio.Services.Activities.deps.json
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.Services.Activities/bin/Debug/netcoreapp2.2/Actio.Services.Activities.runtimeconfig.json
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.Services.Activities/bin/Debug/netcoreapp2.2/Actio.Services.Activities.runtimeconfig.dev.json
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.Services.Activities/bin/Debug/netcoreapp2.2/Actio.Services.Activities.dll
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.Services.Activities/bin/Debug/netcoreapp2.2/Actio.Services.Activities.pdb
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.Services.Activities/bin/Debug/netcoreapp2.2/Actio.Common.dll
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.Services.Activities/bin/Debug/netcoreapp2.2/Actio.Common.pdb
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.Services.Activities/obj/Debug/netcoreapp2.2/Actio.Services.Activities.csproj.CoreCompileInputs.cache
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.Services.Activities/obj/Debug/netcoreapp2.2/Actio.Services.Activities.RazorAssemblyInfo.cache
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.Services.Activities/obj/Debug/netcoreapp2.2/Actio.Services.Activities.RazorAssemblyInfo.cs
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.Services.Activities/obj/Debug/netcoreapp2.2/Actio.Services.Activities.AssemblyInfoInputs.cache
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.Services.Activities/obj/Debug/netcoreapp2.2/Actio.Services.Activities.AssemblyInfo.cs
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.Services.Activities/obj/Debug/netcoreapp2.2/Actio.Services.Activities.RazorTargetAssemblyInfo.cache
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.Services.Activities/obj/Debug/netcoreapp2.2/Actio.Services.Activities.csproj.CopyComplete
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.Services.Activities/obj/Debug/netcoreapp2.2/Actio.Services.Activities.dll
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.Services.Activities/obj/Debug/netcoreapp2.2/Actio.Services.Activities.pdb

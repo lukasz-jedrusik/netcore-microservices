@@ -14,3 +14,4 @@
 /home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.API/obj/Debug/netcoreapp2.2/Actio.API.csproj.CopyComplete
 /home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.API/obj/Debug/netcoreapp2.2/Actio.API.dll
 /home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.API/obj/Debug/netcoreapp2.2/Actio.API.pdb
+/home/ubuntu/Workspace/dotnet-microservices/Actio/src/Actio.API/obj/Debug/netcoreapp2.2/Actio.API.csprojAssemblyReference.cache

@@ -2,7 +2,7 @@ using System;
 
 namespace Actio.Common.Events
 {
-    public class ActivityCreated : IEvent
+    public class ActivityCreated : IAuthenticatedEvent
     {
         
         public Guid Id { get; }

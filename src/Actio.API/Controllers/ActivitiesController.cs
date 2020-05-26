@@ -23,7 +23,6 @@ namespace Actio.API.Controllers
         public async Task<IActionResult> Post([FromBody]CreateActivity command)
         {
             command.Id = Guid.NewGuid();
-            command.UserId = Guid.Parse(User.Identity.Name);
             command.CreatedAt = DateTime.UtcNow;
             await _busClient.PublishAsync(command);
 

@@ -86,6 +86,10 @@ namespace Actio.Common.Services
             {
                 var handler = (IEventHandler<TEvent>)_webHost.Services
                     .GetService(typeof(IEventHandler<TEvent>));
+
+                // if(!(_webHost.Services.GetService(typeof(IEventHandler<TEvent>)) is IEventHandler<TEvent> handler))
+                //     throw new NullReferenceException();
+
                 _bus.WithEventHandlerAsync(handler);
 
                 return this;

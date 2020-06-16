@@ -5,7 +5,10 @@ using System.Threading.Tasks;
 using Actio.Common.Commands;
 using Actio.Common.Mongo;
 using Actio.Common.RabbitMq;
+using Actio.Services.Activities.Domain.Repositories;
 using Actio.Services.Activities.Handlers;
+using Actio.Services.Activities.Repositories;
+using Actio.Services.Activities.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -30,12 +33,14 @@ namespace Actio.Services.Activities
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-
             services.AddLogging();
             services.AddMongoDB(Configuration);
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<IActivityRepository, ActivityRepository>();
+            services.AddScoped<IDatabaseSeeder, CustomMongoSeeder>();
             services.AddRabbitMq(Configuration);
-            
-            services.AddTransient<ICommandHandler<CreateActivity>, CreateActivityHandler>();
+            services.AddScoped<IActivityService, ActivityService>();
+            services.AddScoped<ICommandHandler<CreateActivity>, CreateActivityHandler>();        
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -51,7 +56,10 @@ namespace Actio.Services.Activities
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            // app.ApplicationServices.GetService<IDatabaseInitializer>().InitializeAsync();
+
+            app.UseHttpsRedirection();            
+
             app.UseMvc();
         }
     }

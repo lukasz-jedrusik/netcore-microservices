@@ -16,6 +16,7 @@ namespace Actio.Common.Mongo
 
                 return new MongoClient(options.Value.ConnectionString);
             });
+
             services.AddScoped<IMongoDatabase>(c => 
             {
                 var options = c.GetService<IOptions<MongoOptions>>();
@@ -23,8 +24,9 @@ namespace Actio.Common.Mongo
             
                 return client.GetDatabase(options.Value.Database);
             });
+
             services.AddScoped<IDatabaseInitializer, MongoInitializer>();
-            // services.AddScoped<IDatabaseSeeder, MongoSeeder>();
+            services.AddScoped<IDatabaseSeeder, MongoSeeder>();
         }        
     }
 }

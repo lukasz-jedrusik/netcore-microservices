@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Actio.Common.Auth;
 using Actio.Common.Commands;
 using Actio.Common.Mongo;
 using Actio.Common.RabbitMq;
@@ -34,6 +35,7 @@ namespace Actio.Services.Identity
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddJwt(Configuration);
             services.AddMongoDB(Configuration);
             services.AddRabbitMq(Configuration);
             services.AddScoped<ICommandHandler<CreateUser>, CreateUserHandler>();

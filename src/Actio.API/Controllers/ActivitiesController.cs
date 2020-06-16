@@ -28,5 +28,9 @@ namespace Actio.API.Controllers
 
             return Accepted($"activities/{command.Id}");
         }
+
+        [HttpGet("")]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        public IActionResult Get() => Content("Secured");
     }
 }

@@ -2866,14 +2866,8 @@
           "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll": {}
         }
       },
-      "Microsoft.IdentityModel.Logging/5.3.0": {
+      "Microsoft.IdentityModel.Logging/6.6.0": {
         "type": "package",
-        "dependencies": {
-          "System.Diagnostics.Tracing": "4.3.0",
-          "System.Globalization": "4.3.0",
-          "System.IO": "4.3.0",
-          "System.IO.FileSystem": "4.3.0"
-        },
         "compile": {
           "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll": {}
         },
@@ -2927,24 +2921,12 @@
           "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.WsFederation.dll": {}
         }
       },
-      "Microsoft.IdentityModel.Tokens/5.3.0": {
+      "Microsoft.IdentityModel.Tokens/6.6.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.IdentityModel.Logging": "5.3.0",
-          "Newtonsoft.Json": "10.0.1",
-          "System.Collections": "4.3.0",
-          "System.Diagnostics.Tools": "4.3.0",
-          "System.Reflection": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Runtime.Extensions": "4.3.0",
-          "System.Runtime.InteropServices": "4.3.0",
-          "System.Runtime.InteropServices.RuntimeInformation": "4.3.0",
-          "System.Runtime.Serialization.Xml": "4.3.0",
-          "System.Security.Claims": "4.3.0",
-          "System.Security.Cryptography.Algorithms": "4.3.0",
-          "System.Security.Cryptography.X509Certificates": "4.3.0",
-          "System.Text.RegularExpressions": "4.3.0",
-          "System.Threading": "4.3.0"
+          "Microsoft.CSharp": "4.5.0",
+          "Microsoft.IdentityModel.Logging": "6.6.0",
+          "System.Security.Cryptography.Cng": "4.5.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {}
@@ -4961,23 +4943,6 @@
           "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
         }
       },
-      "System.Runtime.Serialization.Xml/4.3.0": {
-        "type": "package",
-        "dependencies": {
-          "System.IO": "4.3.0",
-          "System.Private.DataContractSerialization": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Runtime.Serialization.Primitives": "4.3.0",
-          "System.Text.Encoding": "4.3.0",
-          "System.Xml.ReaderWriter": "4.3.0"
-        },
-        "compile": {
-          "ref/netstandard1.3/System.Runtime.Serialization.Xml.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.3/System.Runtime.Serialization.Xml.dll": {}
-        }
-      },
       "System.Security.AccessControl/4.5.0": {
         "type": "package",
         "dependencies": {
@@ -5009,7 +4974,7 @@
           "System.Security.Principal": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Security.Claims.dll": {}
+          "ref/netstandard1.3/_._": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Security.Claims.dll": {}
@@ -5686,7 +5651,9 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.AspNetCore": "2.2.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "2.2.0",
           "Microsoft.AspNetCore.Hosting": "2.2.0",
+          "Microsoft.IdentityModel.Tokens": "6.6.0",
           "MongoDB.Driver": "2.10.4",
           "RawRabbit": "2.0.0-rc5",
           "RawRabbit.DependencyInjection.ServiceCollection": "2.0.0-rc5",
@@ -8434,29 +8401,20 @@
         "microsoft.identitymodel.jsonwebtokens.nuspec"
       ]
     },
-    "Microsoft.IdentityModel.Logging/5.3.0": {
-      "sha512": "o+bBauEMOi6ZI0MlJEC69Sw9UPwKLFmN+lD942g9UCx5pfiLFvJBKp8OPmxtGFL02ZxzXCIUyhyKn85izBDsnQ==",
+    "Microsoft.IdentityModel.Logging/6.6.0": {
+      "sha512": "OWfHX7bXKTEBXcD9b+0Tx7dWBaqF4wht7RmS6q+9vAXHiNpRG/wkoFKhOp1Yus0Xd1xAXXHSkAKxgmn/SRD1KA==",
       "type": "package",
-      "path": "microsoft.identitymodel.logging/5.3.0",
+      "path": "microsoft.identitymodel.logging/6.6.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net45/Microsoft.IdentityModel.Logging.dll",
-        "lib/net45/Microsoft.IdentityModel.Logging.pdb",
         "lib/net45/Microsoft.IdentityModel.Logging.xml",
-        "lib/net451/Microsoft.IdentityModel.Logging.dll",
-        "lib/net451/Microsoft.IdentityModel.Logging.pdb",
-        "lib/net451/Microsoft.IdentityModel.Logging.xml",
         "lib/net461/Microsoft.IdentityModel.Logging.dll",
-        "lib/net461/Microsoft.IdentityModel.Logging.pdb",
         "lib/net461/Microsoft.IdentityModel.Logging.xml",
-        "lib/netstandard1.4/Microsoft.IdentityModel.Logging.dll",
-        "lib/netstandard1.4/Microsoft.IdentityModel.Logging.pdb",
-        "lib/netstandard1.4/Microsoft.IdentityModel.Logging.xml",
         "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll",
-        "lib/netstandard2.0/Microsoft.IdentityModel.Logging.pdb",
         "lib/netstandard2.0/Microsoft.IdentityModel.Logging.xml",
-        "microsoft.identitymodel.logging.5.3.0.nupkg.sha512",
+        "microsoft.identitymodel.logging.6.6.0.nupkg.sha512",
         "microsoft.identitymodel.logging.nuspec"
       ]
     },
@@ -8538,29 +8496,20 @@
         "microsoft.identitymodel.protocols.wsfederation.nuspec"
       ]
     },
-    "Microsoft.IdentityModel.Tokens/5.3.0": {
-      "sha512": "/piauST4FL0qzVI6oqLWxqhFReg12KwVGy0jRlnVOpGMeOVSKdtNVtHsN/hARc25hOOPEp9WKMce5ILzyMx/tQ==",
+    "Microsoft.IdentityModel.Tokens/6.6.0": {
+      "sha512": "fNfhlY7AEB9y/jooK6xI1vH+7rmq7c2kTEk7j/5SSy25iHRB1twrG8+He9sHxBQqIXhrQliMEwi4GXZInzO4ww==",
       "type": "package",
-      "path": "microsoft.identitymodel.tokens/5.3.0",
+      "path": "microsoft.identitymodel.tokens/6.6.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net45/Microsoft.IdentityModel.Tokens.dll",
-        "lib/net45/Microsoft.IdentityModel.Tokens.pdb",
         "lib/net45/Microsoft.IdentityModel.Tokens.xml",
-        "lib/net451/Microsoft.IdentityModel.Tokens.dll",
-        "lib/net451/Microsoft.IdentityModel.Tokens.pdb",
-        "lib/net451/Microsoft.IdentityModel.Tokens.xml",
         "lib/net461/Microsoft.IdentityModel.Tokens.dll",
-        "lib/net461/Microsoft.IdentityModel.Tokens.pdb",
         "lib/net461/Microsoft.IdentityModel.Tokens.xml",
-        "lib/netstandard1.4/Microsoft.IdentityModel.Tokens.dll",
-        "lib/netstandard1.4/Microsoft.IdentityModel.Tokens.pdb",
-        "lib/netstandard1.4/Microsoft.IdentityModel.Tokens.xml",
         "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll",
-        "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.pdb",
         "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.xml",
-        "microsoft.identitymodel.tokens.5.3.0.nupkg.sha512",
+        "microsoft.identitymodel.tokens.6.6.0.nupkg.sha512",
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
@@ -13258,78 +13207,6 @@
         "runtimes/aot/lib/netcore50/System.Runtime.Serialization.Primitives.dll",
         "system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
         "system.runtime.serialization.primitives.nuspec"
-      ]
-    },
-    "System.Runtime.Serialization.Xml/4.3.0": {
-      "sha512": "nUQx/5OVgrqEba3+j7OdiofvVq9koWZAC7Z3xGI8IIViZqApWnZ5+lLcwYgTlbkobrl/Rat+Jb8GeD4WQESD2A==",
-      "type": "package",
-      "path": "system.runtime.serialization.xml/4.3.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net45/_._",
-        "lib/net46/System.Runtime.Serialization.Xml.dll",
-        "lib/netcore50/System.Runtime.Serialization.Xml.dll",
-        "lib/netstandard1.3/System.Runtime.Serialization.Xml.dll",
-        "lib/portable-net45+win8+wp8+wpa81/_._",
-        "lib/win8/_._",
-        "lib/wp80/_._",
-        "lib/wpa81/_._",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net45/_._",
-        "ref/net46/System.Runtime.Serialization.Xml.dll",
-        "ref/netcore50/System.Runtime.Serialization.Xml.dll",
-        "ref/netcore50/System.Runtime.Serialization.Xml.xml",
-        "ref/netcore50/de/System.Runtime.Serialization.Xml.xml",
-        "ref/netcore50/es/System.Runtime.Serialization.Xml.xml",
-        "ref/netcore50/fr/System.Runtime.Serialization.Xml.xml",
-        "ref/netcore50/it/System.Runtime.Serialization.Xml.xml",
-        "ref/netcore50/ja/System.Runtime.Serialization.Xml.xml",
-        "ref/netcore50/ko/System.Runtime.Serialization.Xml.xml",
-        "ref/netcore50/ru/System.Runtime.Serialization.Xml.xml",
-        "ref/netcore50/zh-hans/System.Runtime.Serialization.Xml.xml",
-        "ref/netcore50/zh-hant/System.Runtime.Serialization.Xml.xml",
-        "ref/netstandard1.0/System.Runtime.Serialization.Xml.dll",
-        "ref/netstandard1.0/System.Runtime.Serialization.Xml.xml",
-        "ref/netstandard1.0/de/System.Runtime.Serialization.Xml.xml",
-        "ref/netstandard1.0/es/System.Runtime.Serialization.Xml.xml",
-        "ref/netstandard1.0/fr/System.Runtime.Serialization.Xml.xml",
-        "ref/netstandard1.0/it/System.Runtime.Serialization.Xml.xml",
-        "ref/netstandard1.0/ja/System.Runtime.Serialization.Xml.xml",
-        "ref/netstandard1.0/ko/System.Runtime.Serialization.Xml.xml",
-        "ref/netstandard1.0/ru/System.Runtime.Serialization.Xml.xml",
-        "ref/netstandard1.0/zh-hans/System.Runtime.Serialization.Xml.xml",
-        "ref/netstandard1.0/zh-hant/System.Runtime.Serialization.Xml.xml",
-        "ref/netstandard1.3/System.Runtime.Serialization.Xml.dll",
-        "ref/netstandard1.3/System.Runtime.Serialization.Xml.xml",
-        "ref/netstandard1.3/de/System.Runtime.Serialization.Xml.xml",
-        "ref/netstandard1.3/es/System.Runtime.Serialization.Xml.xml",
-        "ref/netstandard1.3/fr/System.Runtime.Serialization.Xml.xml",
-        "ref/netstandard1.3/it/System.Runtime.Serialization.Xml.xml",
-        "ref/netstandard1.3/ja/System.Runtime.Serialization.Xml.xml",
-        "ref/netstandard1.3/ko/System.Runtime.Serialization.Xml.xml",
-        "ref/netstandard1.3/ru/System.Runtime.Serialization.Xml.xml",
-        "ref/netstandard1.3/zh-hans/System.Runtime.Serialization.Xml.xml",
-        "ref/netstandard1.3/zh-hant/System.Runtime.Serialization.Xml.xml",
-        "ref/portable-net45+win8+wp8+wpa81/_._",
-        "ref/win8/_._",
-        "ref/wp80/_._",
-        "ref/wpa81/_._",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.runtime.serialization.xml.4.3.0.nupkg.sha512",
-        "system.runtime.serialization.xml.nuspec"
       ]
     },
     "System.Security.AccessControl/4.5.0": {

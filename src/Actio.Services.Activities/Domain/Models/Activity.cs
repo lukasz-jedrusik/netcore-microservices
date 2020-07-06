@@ -1,5 +1,6 @@
 using System;
 using Actio.Common.Exceptions;
+using MongoDB.Bson.Serialization.Attributes;
 
 namespace Actio.Services.Activities.Domain.Models
 {

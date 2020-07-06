@@ -21,7 +21,7 @@ namespace Actio.Services.Activities.Services
         public async Task AddAsync(Guid id, Guid userId, string category, 
             string name, string description, DateTime createdAt)
         {
-            var activities = await _categoryRepository.BrowseAsync();
+            var list = await _categoryRepository.BrowseAsync();
             var activityCategory = await _categoryRepository.GetAsync(category);
             if (activityCategory == null)
             {

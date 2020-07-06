@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Actio.Services.Activities.Domain.Repositories;
+using Actio.Services.Activities.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Actio.Services.Activities.Controllers
@@ -10,11 +12,23 @@ namespace Actio.Services.Activities.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+
+        private readonly IActivityService _activityService;
+        private readonly ICategoryRepository _categoryRepository;
+
+        public ValuesController(IActivityService activityService,
+            ICategoryRepository categoryRepository)
+        {
+            _activityService = activityService;
+            _categoryRepository = categoryRepository;
+        }
+
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            var list = _categoryRepository.BrowseAsync();
+            return new string[] { "value1", "value2",  };
         }
 
         // GET api/values/5

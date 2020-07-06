@@ -39,8 +39,8 @@ namespace Actio.Services.Activities
             services.AddScoped<IActivityRepository, ActivityRepository>();
             services.AddScoped<IDatabaseSeeder, CustomMongoSeeder>();
             services.AddRabbitMq(Configuration);
-            services.AddScoped<IActivityService, ActivityService>();
-            services.AddScoped<ICommandHandler<CreateActivity>, CreateActivityHandler>();        
+            services.AddScoped<ICommandHandler<CreateActivity>, CreateActivityHandler>();  
+            services.AddScoped<IActivityService, ActivityService>();      
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
